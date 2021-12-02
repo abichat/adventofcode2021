@@ -1,5 +1,5 @@
 test_01 <- c(199, 200, 208, 210, 200, 207, 240, 269, 260, 263)
-input_01 <- as.numeric(readLines("inputs/day_01.txt"))
+input_01 <- as.numeric(readLines("inputs/input_01.txt"))
 
 
 solve_01a <- function(input) {
