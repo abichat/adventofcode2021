@@ -9,3 +9,7 @@
 Solutions of
 <a href="https://adventofcode.com/2021" target="_blank">Advent of Code
 2021</a> with R.
+
+<br>
+
+![](README_files/figure-gfm/plot-1.png)<!-- -->
