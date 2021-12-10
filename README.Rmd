@@ -34,7 +34,7 @@ time_script <- function(script) {
   return(unname(round(t$toc - t$tic, 2)))
 }
 df_time <-
-  list.files("scripts/", full.names = TRUE) %>% 
+  list.files("scripts/", "day_", full.names = TRUE) %>% 
   tibble(script = .) %>% 
   mutate(day = as.numeric(str_extract(script, "[0-9]+")),
          time = map_dbl(script, time_script))
